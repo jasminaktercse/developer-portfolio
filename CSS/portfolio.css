@@ -5,6 +5,7 @@
 }
 .text-primary {
   color: #fd6e0a;
+  display: inline-block;
 }
 .btn-primary {
   background-color: #fd6e0a;
@@ -70,10 +71,11 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-
+section {
+  margin-top: 130px;
+}
 /* About Sections style */
 .about {
-  margin-top: 130px;
   background-color: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -81,7 +83,7 @@ main {
 }
 
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 35px;
   font-weight: 700;
 }
@@ -94,12 +96,9 @@ main {
 /* About Info Styles */
 .about-info-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.about-info {
-  margin-left: 50px;
-}
 .info-title {
   font-weight: 400;
   font-size: 20px;
@@ -111,4 +110,87 @@ main {
   font-size: 20px;
   line-height: 30px;
   color: #474747;
+}
+/* WHat i do styles */
+.what-i-do {
+}
+.section-title {
+  text-align: center;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+}
+
+/* Resume styles */
+.resume {
+}
+.section-tile {
+}
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-title {
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume .title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+}
+.resume-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* COntact Styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.contact .section-title {
+  text-align: left;
+}
+
+.contact input,
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.contact input {
+  height: 64px;
+  
 }
